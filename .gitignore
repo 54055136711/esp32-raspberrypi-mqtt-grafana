@@ -10,6 +10,17 @@ config.py
 logs/
 *.log
 
+# 本地数据文件（运行时产生，不上传）
+data_cache.db
+data_cache.db-shm
+data_cache.db-wal
+data_cache.db.bak
+data_cache.db-*
+
+# 编译临时文件
+pigpio-master/
+*.tar.gz
+
 # Python 缓存
 __pycache__/
 *.pyc
